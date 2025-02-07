@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: satoshi;
     /*Make sure to properly add font family later*/
     color: #F6F2E6;
@@ -25,17 +25,20 @@ header, nav {
 header {
     justify-content: center;
     margin-top: 2.4375rem;
-    margin-bottom: 17rem;
+    margin-bottom: 16rem;
 }
 
 nav {
-    width: 100rem;
+    flex-grow: 1;
+    width: 90%;
+    max-width: 1600px;
     justify-content: space-between;
     align-items: center;
     font-size: 2rem;    
 }
 
-nav a, .nav-list li a {
+nav a {
+    position: relative;
     text-decoration: none;
 }
 
@@ -46,11 +49,26 @@ nav a, .nav-list li a {
     list-style: none;
 }
 
+.nav-list a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background-color: #F6F2E6;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.nav-list a:hover::after {
+    width: 100%;
+    left: 0%;
+}
 
 /*Hero Section*/
 
 #hero {
-    
+    /*Still necessary for when you implement English / Spanish buttons */
 }
 
 #content {
@@ -67,7 +85,7 @@ nav a, .nav-list li a {
 }
 
 .description {
-    display: inline-flex;
+    display: flex;
     padding: 0.625rem 26.375rem;
     justify-content: center;
     align-items: center;
@@ -81,7 +99,7 @@ nav a, .nav-list li a {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.cta-btns {
+.btn-container {
     display: inline-flex;
     justify-content: center;
     margin-top: 4.1rem;
@@ -101,4 +119,12 @@ nav a, .nav-list li a {
     font-size: 1.5rem;
     background: rgba(20, 18, 28, 0.30);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);  
+    transition: color 0.4s ease-in-out, background 0.4s ease-in-out, border 0.4s ease-in-out;
+}
+
+.btn:hover {
+    color: #14121C;
+    border: 2px solid #14121C;
+    background: rgba(246, 242, 230, 0.90);
+
 }
