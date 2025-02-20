@@ -1,0 +1,77 @@
+/* Set background */
+.about-page {
+    background-image: url('./resources/000072890021.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.profile-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: -1;
+}
+
+.profile-img {
+    width: 34rem; 
+    height: auto;
+    border-radius: 20px;
+}
+
+.text-container {
+    outline: 1px solid green;
+}
+
+.sentence h1 {
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 7rem;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sentence-one.container {
+    display: flex;
+    margin-top: 9.81rem;
+    padding-left: 22%;
+    line-height: 8rem;
+    outline: 1px solid red;
+}
+
+.sentence.one {
+    outline: 1px solid blue;
+}
+
+.sentence-two.container {
+    display: flex;
+    justify-content: center;
+    padding-left: 50%;
+    margin-top: 5rem;
+    outline: 1px solid red;
+}
+
+.sentence.two {
+    width: 90%;
+    text-align: right;
+    outline: 1px solid blue;
+    
+}
+
+.sentence-three.container {
+    display: flex;
+    justify-content: center;
+    padding-right: 50%;
+    margin-top: 5rem;
+    outline: 1px solid red;
+}
+
+.sentence.three {
+    width: 90%;
+    text-align: left;
+    overflow: hidden;
+    outline: 1px solid blue
+}
+

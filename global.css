@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Satoshi', sans-serif;
+    color: #F6F2E6;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./resources/Satoshi/Satoshi-Variable.woff2') format('woff2');
+    font-weight: 300 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./resources/Satoshi/Satoshi-VariableItalic.woff2') format('woff2');
+    font-weight: 300 900;
+    font-style: italic;
+    font-display: swap;
+}
+
