@@ -1,37 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
-    <link href="./global.css" rel="stylesheet">
-    <link href="./about.css" rel="stylesheet">
-    <link href="./header.css" rel="stylesheet">
-</head>
-<body class="about-page">
-
+    <link href="./global.css" rel="stylesheet" />
+    <link href="./about.css" rel="stylesheet" />
+    <link href="./header.css" rel="stylesheet" />
+  </head>
+  <body class="about-page">
     <header class="site-header"></header>
-    
-    <main class="hero-section">
 
-        <section class="profile-container">
-            <img class="profile-img" src="./resources/profile-photo-b&w.jpg" alt="Connor Shipley smiling with a coffee by the river in black & white.">
-        </section>
+<!--Upper Section Begins-->
 
-        <div class="text-container">
-            <h1 class="introduction">Hello,<br>My name is Connor Shipley.</h1>
-            <br><br>
-            <p class="introduction">I'm a <span id="highlight">Frontend Developer & Creative Technologist</span> Currently Based in London, United Kingdom.</p>
-            <br><br>
-            <p class="introduction">This is My Story</p>
+    <section class="section-one container">
+      <div class="hero">
+        <div id="profile-container">
+          <img
+            id="profile-image"
+            src="./resources/profile-photo-b&w.jpg"
+            alt="Connor Shipley smiling with a coffee by the river in black & white."
+          />
         </div>
 
-        <section class="details">
+        <div id="hero-text">
+          <h1 class="introduction">Hello,<br />My name is Connor Shipley.</h1>
+          <br /><br />
+          <p class="introduction">
+            I'm a
+            <span id="highlight"
+              >Frontend Developer & Creative Technologist</span
+            >
+            Currently Based in London, United Kingdom.
+          </p>
+          <br /><br />
+          <p class="introduction">This is My Story</p>
+        </div>
+      </div>
+    </section>
 
-        </section>
+<!--Lower Section Begins-->
 
-        <script src="./header.js"></script>
+    <section class="section-two container">
+      <div id="upper-section">
+        <iframe
+          id="video"
+          src="https://www.youtube.com/watch?v=OWSEyxCYkCg"
+          title="Connor's video to UAL"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div id="lower-section">
+        <div class="profile container">
+          <p>
+            <span>Profile</span>Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nullam aliquet tincidunt molestie. Fusce elementum
+            commodo euismod. Nullam posuere tellus a velit sagittis, et gravida
+            lectus blandit. Suspendisse mattis ligula sed felis auctor, non
+            pulvinar est ornare. Integer mauris eros, dictum a lectus ac,
+            vestibulum pretium magna. Integer feugiat urna tristique, mattis mi
+            ut, sodales metus. Mauris elementum, dui at fringilla rutrum, leo
+            ipsum blandit neque, vitae ornare dolor lacus interdum velit. Mauris
+            fermentum scelerisque metus ac eleifend.
+          </p>
+        </div>
+        <div class="contact">
+          <h2>Contact</h2>
+          <ul>
+            <li>Phone: +44 7721 845470</li>
+            <li>Email: connorshipley@protonmail.com</li>
+            <li>LinkedIn: connorshipley@linkedin.com</li>
+          </ul>
+        </div>
+        <div class="tech-stack">
+          <h2>Tech Stack</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>React</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    </main>
-</body>
+    <script src="./header.js"></script>
+  </body>
 </html>
