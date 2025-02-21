@@ -25,6 +25,11 @@ body::before {
     z-index: 1;
 }
 
+#index-header {
+    backdrop-filter: none;
+    background: none;
+}
+
 /*Check header.css for Heading and Nav info*/
 
 /*Hero Section*/

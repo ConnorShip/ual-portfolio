@@ -6,3 +6,4 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => console.error('Error Loading header:', error));
 })
+

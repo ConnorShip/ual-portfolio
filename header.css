@@ -2,13 +2,13 @@
 
 .site-header {
     position: fixed; 
-    top: 0; 
+    top: 0;
+    min-height: 5.6875rem; 
     width: 100%; 
     z-index: 1000;
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
-
+    align-items: center;
 }
 
 nav {

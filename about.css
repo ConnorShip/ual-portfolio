@@ -1,3 +1,10 @@
+/*Section One*/
+
+#about-header {
+    backdrop-filter: blur(5px);
+    background: linear-gradient(to bottom, hsla(252, 22%, 9%, 0.10), hsla(252, 22%, 9%, 0.00) );
+}
+
 .section-one.container {
     background-image: url('./resources/000072890021.jpg');
     background-size: cover;
@@ -58,4 +65,43 @@
     font-style: italic;
     font-weight: 900;
     line-height: 4.375rem;
+}
+
+/*Section Two*/
+.section-two.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #161516;
+    height: 982px;
+}
+#upper-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.75rem;
+}
+#video {
+  width: 98%;
+  height: 35rem;
+  border: none;
+  border-radius: 1.25rem;
+}
+
+#lower-section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 0.9375rem;
+    margin: 3rem 5rem 3rem 5rem;
+}
+
+.profile.container {
+    grid-column: 1 / 7;
+}
+
+.contact {
+    grid-column: 9 / 11;
+}
+
+.tech-stack {
+    grid-column: 12 / 13;
+    text-align: right;
 }
