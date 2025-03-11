@@ -6,7 +6,7 @@
 }
 
 .section-one.container {
-    background-image: url('./resources/000072890021.jpg');
+    background-image: url('../resources/000072890021.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -98,10 +98,14 @@
 }
 
 .contact {
-    grid-column: 9 / 11;
+    grid-column: 8 / 11;
 }
 
 .tech-stack {
     grid-column: 12 / 13;
     text-align: right;
+}
+
+.contact li, .tech-stack li {
+    list-style: none;
 }

@@ -16,7 +16,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    max-width: 1600px;
+    flex-grow: 1;
+    max-width: 90%;
     font-size: 2rem;
 }
 
