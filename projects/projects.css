@@ -1,0 +1,66 @@
+body {
+    background-color: #161516;
+}
+
+main {
+    margin-top: 6rem;
+}
+
+#bento-stage {
+    display: flex;
+    justify-content: center;
+}
+
+.bento-container {
+    display: flex;
+    width: 80%;
+    height: 1000px;
+    padding: 4rem 2rem;
+    gap: 1.05rem;
+}
+
+.col {
+    border-radius: 20px
+}
+
+.col-one {
+    flex: 2;
+}
+
+.col-two {
+    flex: 1;
+}
+
+.col-one, .col-two {
+    display: flex;
+    flex-direction: column;
+    gap: 1.05rem;
+}
+
+.col-three {
+    flex: 1;
+}
+
+.col-three, .row {
+    border: 1px solid #F6F2E6;
+}
+
+.row-1 {
+    flex: 2;
+    border-radius: 20px 20px 0 0;
+}
+
+.row-2 {
+    flex: 1;
+    border-radius: 0 0 20px 20px;
+}
+
+.row-3 {
+    flex: 1;
+    border-radius: 20px 20px 0 0;
+}
+
+.row-4 {
+    flex: 2;
+    border-radius: 0 0 20px 20px;
+}
