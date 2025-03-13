@@ -38,6 +38,7 @@
 
 #profile-container {
     grid-column: 1 / 6;
+    
 }
 
 #profile-image {
@@ -67,7 +68,8 @@
     line-height: 4.375rem;
 }
 
-/*Section Two*/
+/* Section Two */
+
 .section-two.container {
     display: flex;
     flex-direction: column;
@@ -80,11 +82,13 @@
     margin-top: 1.75rem;
 }
 #video {
-  width: 98%;
+  width: 95%;
   height: 35rem;
   border: none;
   border-radius: 1.25rem;
 }
+
+/* Lower Section */
 
 #lower-section {
     display: grid;
@@ -95,17 +99,65 @@
 
 .profile.container {
     grid-column: 1 / 7;
+    padding: 3rem 1.5rem;
+    border: 1px solid #F6F2E6;
+    border-radius: 20px;
 }
 
-.contact {
-    grid-column: 8 / 11;
+#details {
+    grid-column: 8 / 13;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2.5rem;
+    border: 1px solid #F6F2E6;
+    border-radius: 20px;
 }
 
-.tech-stack {
-    grid-column: 12 / 13;
+.top-container, .bottom-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top-container ul {
+    list-style: none;
+}
+
+.top-container li {
+    padding-bottom:  0.5rem;
+}
+
+.top-container h2 {
+    text-decoration: underline;
+    padding-bottom: 1.5rem;
+}
+
+.contact li {
+    padding-bottom: 1rem;
+}
+
+.tech-stack ul {
+    text-align: center;
+}
+
+.learning h2, .learning ul {
     text-align: right;
 }
 
-.contact li, .tech-stack li {
-    list-style: none;
+.bottom-container {
+    margin-top: 2rem;
+}
+
+.standout {
+    font-family: "Zodiak", "Satoshi", sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 540;
+    color: #F49B2F
+}
+
+.about-footer {
+    background-color: #161516;
 }
