@@ -1,5 +1,9 @@
 /*Section One*/
 
+.about-page {
+   background-color: #161516;
+}
+
 #about-header {
     backdrop-filter: blur(5px);
     background: linear-gradient(to bottom, hsla(252, 22%, 9%, 0.10), hsla(252, 22%, 9%, 0.00) );
@@ -21,7 +25,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.6); 
     z-index: 1; 
 }
 
@@ -29,27 +33,29 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 0.9375rem;
+    min-width: 518px;
     margin: 0 5rem 0 5rem;
     position: relative;
-    top: 9.12rem;
+    top: 12rem;
     align-items: center;
     z-index: 2;
 }
 
 #profile-container {
-    grid-column: 1 / 6;
+    grid-column: 2 / 6;
     
 }
 
 #profile-image {
     width: 100%;
-    max-height: 44.0625rem;
+    max-height: 55rem;
+    
     object-fit: cover;
     border-radius: 20px;
 }
 
 #hero-text {
-    grid-column: 7 / 13;
+    grid-column: 7 / 12;
 }
 
 .introduction {
@@ -160,4 +166,87 @@
 
 .about-footer {
     background-color: #161516;
+}
+/* Upper Half*/
+/* Desktops */
+
+@media (max-width: 1620px) {
+    .introduction, #highlight {
+        font-size: 2.5rem;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 1340px) {
+
+    #profile-container {
+        grid-column: 1 / 6;
+        
+    }
+    #hero-text {
+        grid-column: 7 / 13;
+    }    
+
+    .introduction, #highlight {
+        font-size: 2rem;
+        line-height: normal;
+    }
+}
+
+/* Tablets */
+
+@media (max-width: 900px) {
+
+    .hero {
+        top: 10rem;
+    }
+
+    .introduction, #highlight {
+        font-size: 1.3rem;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 650px) {
+
+    #profile-container {
+        grid-column: 1 / 6;
+        
+    }
+    #hero-text {
+        grid-column: 7 / 13;
+    }    
+
+    .introduction, #highlight {
+        font-size: 1rem;
+        line-height: normal;
+    }
+}
+
+/* Phones */
+
+@media (max-width: 650px) {
+
+    #profile-container {
+        grid-column: 1 / 6;
+        
+    }
+    #hero-text {
+        grid-column: 7 / 13;
+    }    
+
+    .introduction, #highlight {
+        font-size: 0.6rem;
+        line-height: normal;
+    }
+}
+
+/* Lower Half */
+
+@media (max-width: 1647px) {
+    .tech-stack h2 {
+        text-align: center;
+        font-size: 1.5rem;
+        justify-content: center;
+    }
 }

@@ -158,3 +158,27 @@ body::before {
         font-size: 4rem;
     }
 }
+
+/* Phone */
+
+@media (max-width: 480px ) {
+    .title-container h1 {
+        font-size: 3rem;
+    }
+
+    #bio {
+        font-size: 1.1rem;
+    }
+
+    #whyBtn {
+        font-size: 1rem;
+        width: 11rem;
+        
+    }
+}
+
+@media (max-width: 356px) {
+    .title-container h1 {
+        font-size: 2rem;
+    }
+}

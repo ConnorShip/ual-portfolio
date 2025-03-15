@@ -49,3 +49,15 @@ nav a {
     width: 100%;
     left: 0%;
 }
+
+@media(max-width: 768px) {
+    #logo {
+        display: none;
+    }
+
+    .nav-list {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
