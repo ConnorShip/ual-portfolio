@@ -97,71 +97,85 @@
 /* Lower Section */
 
 #lower-section {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 0.9375rem;
-    margin: 3rem 5rem 3rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 5rem;
 }
 
-.profile.container {
-    grid-column: 1 / 7;
-    padding: 3rem 1.5rem;
+.content-container {
+    display: flex;
+    gap: 2rem;
+    width: 100%
+}
+
+.about-container, .info-container {
+    padding: 1rem;
     border: 1px solid #F6F2E6;
     border-radius: 20px;
 }
 
-#details {
-    grid-column: 8 / 13;
+.about-container {
+    flex: 1;
+}
+
+.info-container {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 2.5rem;
-    border: 1px solid #F6F2E6;
-    border-radius: 20px;
 }
 
-.top-container, .bottom-container {
+.row-1 {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    gap: 0.5rem;
 }
 
-.top-container ul {
+.box-header {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+
+}
+
+.box ul {
     list-style: none;
 }
 
-.top-container li {
-    padding-bottom:  0.5rem;
+.box li {
+    padding-bottom: 0.5rem;
 }
 
-.top-container h2 {
-    text-decoration: underline;
-    padding-bottom: 1.5rem;
+.col-1 {
+    flex: 2;
+    padding: 0 0.5rem;
 }
 
-.contact li {
-    padding-bottom: 1rem;
+.col-1, .col-2 {
+    border-right: 1px solid #F6F2E6;
 }
 
-.tech-stack ul {
-    text-align: center;
+.col-2, .col-3 {
+    flex: 1;
+    padding: 0 0.5rem;
 }
 
-.learning h2, .learning ul {
-    text-align: right;
+.row-2 {
+    margin-top: 2.5rem;
+    border-left: 1px solid #F6F2E6;
+    
 }
 
-.bottom-container {
-    margin-top: 2rem;
+.row-2-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5rem;
 }
 
-.standout {
+.row-2-container span {
     font-family: "Zodiak", "Satoshi", sans-serif;
     font-size: 1.5rem;
-    font-style: italic;
     font-weight: 540;
-    color: #F49B2F
+    color: #F49B2F;
 }
 
 .about-footer {
@@ -241,12 +255,3 @@
     }
 }
 
-/* Lower Half */
-
-@media (max-width: 1647px) {
-    .tech-stack h2 {
-        text-align: center;
-        font-size: 1.5rem;
-        justify-content: center;
-    }
-}
