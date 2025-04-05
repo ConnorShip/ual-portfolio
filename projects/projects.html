@@ -12,34 +12,113 @@
   <body>
     <div id="project-header" class="site-header"></div>
     <main>
-        <div class="title-container">
-            <div class="title">
-                <h1>My Work</h1>
-                <span>This is a subtitle</span>
-            </div>
-            <div class="line-container">
-                <div id="line"></div>
-            </div>
+      <div class="title-container">
+        <div class="title">
+          <h1>My Work</h1>
         </div>
-
-        <div id="bento-stage">
-
-            <div class="bento-container">
-
-                <div class="col col-one">
-                    <div class="row row-1"></div>
-                    <div class="row row-2"></div>
-                </div>
-
-                <div class="col col-two">
-                    <div class="row row-3"></div>
-                    <div class="row row-4"></div>
-                </div>
-
-                <div class="col col-three"></div>
-                
-            </div>
+        <div class="line-container">
+          <div id="line"></div>
         </div>
+      </div>
+
+      <div id="bento-stage">
+        <div class="bento-container">
+          <div class="col col-one">
+            <div class="row row-1">
+              <div class="box-title"><h2>Description</h2></div>
+              <div class="textbox">
+                <p>
+                  LiveRail is a simple, straightforward, vite-powered React
+                  application that utilizes the Tfl's (Transport for London) API
+                  to provide real-time data on London's underground trains.
+                </p>
+              </div>
+            </div>
+            <div class="row row-2">
+              <div class="box-title"><h2>Developer's Note</h2></div>
+              <div class="textbox">
+                <p>
+                  Over the past year, I have taught myself how to code. I have
+                  learned and continue to practice HTML, CSS, JavaScript, and
+                  React. To further hone my skills, I've worked on numerous
+                  mini-projects. However, this is my first fully-fledged React
+                  project, and I'm excited to share it with the Creative
+                  Computing Institute at UAL. While I'm aware there is still
+                  much room for improvement within this project, I wanted to
+                  showcase my coding capabilities thus far to the Admissions
+                  team at CCI while acknowledging that my technical capabilities
+                  in this new industry have much room for improvement. I believe
+                  CCI can significantly help me enhance my technical skills in
+                  this industry, which I have found myself so deeply interested
+                  in. I hope you enjoy the project.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-two">
+            <div class="row row-3">
+              <div class="box-title"><h2>Features</h2></div>
+              <div class="textbox">
+                <ul>
+                  <li>
+                    Search for any underground line by typing in the line name
+                    in the search
+                  </li>
+                  <li>
+                    A dropdown menu will appear and a user is able to select the
+                    intended line.
+                  </li>
+                  <li>
+                    Once a line is selected, a pop-up menu appears displaying
+                    the line name, its status, and the reason for any possible
+                    delays in service
+                  </li>
+                  <li>
+                    The pop-up menu's background colour will also change
+                    depending on the quality of service:
+                  </li>
+                  <li>Good Service = Green</li>
+                  <li>Minor Delays = Yellow</li>
+                  <li>Severe Delays = Red</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row row-4">
+              <div class="box-title"><h2>Challenges</h2></div>
+              <div class="textbox">
+                <p>
+                  This project challenged my knowledge in various areas.
+                  LiveRail is the first React project I have made without the
+                  support and assistance of Codecademy - a learning platform
+                  I've utilised to gain technical knowledge. I often reviewed
+                  MDN pages and reviewed my course material to grasp the
+                  concepts necessary to put this together. I found fetching the
+                  API relatively simple; however, displaying the data, dealing
+                  with state management, and ensuring all my components
+                  communicated effectively took a few tries. Additionally, there
+                  is room for improvement within this project concerning the
+                  organisation of my code and features to improve user
+                  experience, notably making sure my applications align with
+                  ARIA standards and bettering the implementation of responsive
+                  design. Nevertheless, I hope this small application is
+                  enjoyable, and it was important to me to showcase what
+                  demonstrates the culmination of the skills I've been building
+                  over the past year.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col col-three">
+            <div class="box-title">
+              <a href="https://liverail.netlify.app/" target="_blank">
+                <img src="../resources/Logo.png">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <div id="footer-container" class="project-footer"></div>
     <script src="../header/header.js"></script>
