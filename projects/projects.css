@@ -74,6 +74,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.col-three:hover {
+    border-color: #F49B2F;
 }
 
 .col-three, .row {
