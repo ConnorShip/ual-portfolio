@@ -109,7 +109,7 @@ body::before {
 
 
 /* General / Background */
-@media (max-width: 1340px), (min-width: 1341px) {
+@media (max-width: 1340px) {
     body {
         background: url(./resources/homepage-background.jpg) no-repeat center / cover;
     }
@@ -119,23 +119,11 @@ body::before {
 
 @media (max-width: 1440px) {
     .title-container h1 {
-        font-size: 7rem;
+        font-size: 6rem;
     }
 
     .bio-container {
         padding: 0 8rem;
-    }
-
-    #divider {
-        height: 8rem;
-    }
-}
-
-/* Small Laptops */
-
-@media (max-width: 1024px) {
-    .title-container h1 {
-        font-size: 6rem;
     }
 
     #bio {
