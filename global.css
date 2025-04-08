@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'Satoshi';
-    src: url('./resources/Satoshi/Satoshi-Variable.woff2') format('woff2');
+    src: url('/ual-portfolio/resources/Satoshi/Satoshi-Variable.woff2') format('woff2');
     font-weight: 300 900;
     font-style: normal;
     font-display: swap;
@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: 'Satoshi';
-    src: url('./resources/Satoshi/Satoshi-VariableItalic.woff2') format('woff2');
+    src: url('/ual-portfolio/resources/Satoshi/Satoshi-VariableItalic.woff2') format('woff2');
     font-weight: 300 900;
     font-style: italic;
     font-display: swap;
@@ -23,7 +23,7 @@
 
 @font-face {
     font-family:'Zodiak';
-    src: url(./resources/Zodiak_Complete/Fonts/WEB/fonts/Zodiak-Variable.woff2) format('woff2');
+    src: url(/ual-portfolio/resources/Zodiak_Complete/Fonts/WEB/fonts/Zodiak-Variable.woff2) format('woff2');
     font-weight: 300 900;
     font-style: normal;
     font-display: swap;
@@ -31,7 +31,7 @@
 
 @font-face {
     font-family: 'Zodiak';
-    src: url(./resources/Zodiak_Complete/Fonts/WEB/fonts/Zodiak-VariableItalic.woff2) format('woff2');
+    src: url(/ual-portfolio/resources/Zodiak_Complete/Fonts/WEB/fonts/Zodiak-VariableItalic.woff2) format('woff2');
     font-weight: 300 900;
     font-style: italic;
     font-display: swap;
