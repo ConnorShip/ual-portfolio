@@ -119,11 +119,11 @@ body::before {
 
 @media (max-width: 1440px) {
     .title-container h1 {
-        font-size: 8rem;
+        font-size: 7rem;
     }
 
     .bio-container {
-        padding: 0 1.5rem;
+        padding: 0 8rem;
     }
 
     #divider {
