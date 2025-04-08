@@ -108,3 +108,62 @@ body::before {
 
 
 
+/* General / Background */
+@media (max-width: 1340px) {
+    body {
+        background: url(./resources/homepage-background.jpg) no-repeat center / cover;
+    }
+}
+
+/* Large Laptops */
+
+@media (max-width: 1440px) {
+    .title-container h1 {
+        font-size: 6rem;
+    }
+
+    .bio-container {
+        padding: 0 8rem;
+    }
+
+    #bio {
+        font-size: 1.3rem;
+    }
+
+    #divider {
+        height: 6rem;
+    }
+}
+
+/* Tablets */
+
+@media (max-width: 768px) {
+    .title-container h1 {
+        font-size: 4rem;
+    }
+}
+
+/* Phone */
+
+@media (max-width: 480px ) {
+    .title-container h1 {
+        font-size: 3rem;
+    }
+
+    #bio {
+        font-size: 1.1rem;
+    }
+
+    #whyBtn {
+        font-size: 1rem;
+        width: 11rem;
+        
+    }
+}
+
+@media (max-width: 356px) {
+    .title-container h1 {
+        font-size: 2rem;
+    }
+} 
+
