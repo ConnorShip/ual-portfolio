@@ -10,7 +10,7 @@
 }
 
 .section-one.container {
-    background-image: url('../resources/000072890021.jpg');
+    background-image: url('./resources/000072890021.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
