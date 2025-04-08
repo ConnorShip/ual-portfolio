@@ -68,7 +68,7 @@ main {
 
 .col-three {
     flex: 1;
-    background-image: url(../resources/load-background.jpg);
+    background-image: url(./resources/load-background.jpg);
     background-position: top right;
     background-repeat: no-repeat;
     display: flex;
